@@ -1,6 +1,11 @@
 @import 'tailwindcss';
 @import "tw-animate-css";
 
+@theme {
+  --color-taro-orange: #EE7B28;
+  --color-taro-lightGray: #3E4148;
+  --color-taro-darkGray: #2D2F34;
+}
 
 @font-face {
   font-family: 'Outfit';
@@ -14,9 +19,21 @@
   font-weight: 500;
   font-style: normal;
 }
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('/fonts/JosefinSans/JosefinSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('/fonts/JosefinSans/JosefinSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'JosefinSans', sans-serif;
   font-weight: 500;
 }
 
